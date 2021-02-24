@@ -1,0 +1,21 @@
+download('http://somesite.com/path/image.jpg')
+compress('image.jpg','zip')
+upload('http://file.com' , 'image.zip')
+
+
+/***
+ * download('http://somesite.com/path/image.jpg')
+* compress('image.jpg','zip')
+upload('http://file.com' , 'image.zip')
+
+ * 
+ * 
+ * console.log('start')
+
+setTimeout(function () {
+    console.log('done')
+},3000)
+
+console.log('end')
+
+***/
